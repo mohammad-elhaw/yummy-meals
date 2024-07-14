@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/output.css">
+</head>
+<body class="bg-black">
+
+    <!-- Start Loading Screen -->
+    <div id="loader-screen" class="fixed inset-0 bg-black z-[9] flex justify-center items-center hidden">
+        <i class="fa fa-spinner fa-spin fa-5x text-white"></i>
+    </div>
+    <!-- End Loading Screen -->
+
+    <!-- Start Navbar -->
+    <div id="navbar" class="fixed flex top-0 min-h-screen z-[99] max-w-80 transition-all duration-500 -left-[267px]">
+        <div id="nav-content" class="min-h-screen flex flex-col justify-between p-6 bg-[#0D0D0D] text-white">
+            <div class="links">
+                <ul class="cursor-pointer space-y-4 overflow-hidden">
+                    <li id="search" class="relative">Search</li>
+                    <li id="categories" class="relative">Categories</li>
+                    <li id="area" class="relative">Area</li>
+                    <li id="ingredients" class="relative">Ingredients</li>
+                    <li id="contact-us" class="relative">Contact Us</li>
+                </ul>
+            </div>
+            <div class="nav-footer">
+                <div>
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-solid fa-globe"></i>
+                </div>
+
+                <p>Copyright Â© 2019 All Rights Reserved.</p>
+            </div>
+        </div>
+
+        <div id="nav-logo" class="min-h-screen flex flex-col justify-between bg-white text-black px-2 py-4 text-center">
+            <img src="images/logo.png" class="w-12" alt="logo">
+            <i class="fa-solid open-close-icon fa-2x fa-x cursor-pointer"></i>
+            <div>
+                <i class="fa-solid fa-globe block cursor-pointer"></i>
+                <i class="fa-solid fa-share-nodes cursor-pointer"></i>
+            </div>
+        </div>
+    </div>
+    <!-- End Navbar -->
+    
+    <!-- Start Search Section -->
+    <div id="search-container" class="relative z-10 container w-3/4 "></div>
+    <!-- End Search Section -->
+
+    <div class="min-h-screen">
+        <div id="mealData" class="flex flex-wrap py-12 container">
+            
+        </div>
+    </div>
+    
+
+    <script src="js/index.js"></script>
+</body>
+</html>
