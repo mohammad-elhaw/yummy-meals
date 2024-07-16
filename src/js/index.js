@@ -99,7 +99,7 @@ function displayMeals(arr){
         `
             <div class="sm:w-1/4 p-3">
                 <div id="${arr[i].idMeal}" class="items relative group overflow-hidden cursor-pointer">
-                    <div class="meal-layer"><h2 class="text-xl font-medium">${arr[i].strMeal}</h2></div>
+                    <div class="meal-layer rounded-md"><h2 class="text-xl font-medium">${arr[i].strMeal}</h2></div>
                     <img src="${arr[i].strMealThumb}" class="border rounded-md border-none w-full" alt="">
                 </div>
             </div>
