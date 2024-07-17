@@ -476,13 +476,13 @@ function showContact(){
                         </div>
 
                         <div class="w-full md:w-1/2 p-3">
-                            <input id="passwordInput" class="w-full custom-btn bg-white" type="text" placeholder="Enter Your Password">
+                            <input id="passwordInput" class="w-full custom-btn bg-white" type="password" placeholder="Enter Your Password">
 
                             <div class="w-full alert-btn hidden">Enter valid password *Minimum eight characters, at least one letter and one number:*</div>
                         </div>
 
                         <div class="w-full md:w-1/2 p-3">
-                            <input id="repasswordInput" class="w-full custom-btn bg-white" type="text" placeholder="Repassword">
+                            <input id="repasswordInput" class="w-full custom-btn bg-white" type="password" placeholder="Repassword">
 
                             <div class="w-full alert-btn hidden">Enter valid repassword</div>
                         </div>
